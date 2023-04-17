@@ -1,8 +1,12 @@
-﻿internal class Program
+﻿using Collection267;
+
+internal class Program
 {
     private static void Main(string[] args)
     {
         Console.WriteLine("Welcome to Collections");
+        RemainingChapters chapters = new RemainingChapters();
+        chapters.CountRemainingChapters();
         Console.ReadLine();
     }
 }
